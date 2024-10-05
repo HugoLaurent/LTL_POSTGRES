@@ -1,5 +1,4 @@
-@import '~/css/app.css';
-
+@import './../../css/app.css';
 .nav-container {
   display: flex;
   justify-content: space-between;

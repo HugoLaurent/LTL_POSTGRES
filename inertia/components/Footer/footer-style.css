@@ -1,5 +1,4 @@
-@import '~/css/app.css';
-
+@import './../../css/app.css';
 .footer-container {
   background-color: var(--primary-dark-1);
   color: var(--text-light-color);

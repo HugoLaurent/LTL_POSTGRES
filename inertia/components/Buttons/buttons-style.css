@@ -1,5 +1,4 @@
-@import '~/css/app.css';
-
+@import './../../css/app.css';
 .button-icon-text {
   display: flex;
   align-items: center;
