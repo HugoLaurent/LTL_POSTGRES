@@ -1,0 +1,61 @@
+@import '~/css/app.css';
+
+.popular-container {
+  margin: var(--margin-base);
+  padding: 2rem var(--padding-base);
+  border-radius: var(--border-radius);
+  background-color: var(--primary-dark-5);
+}
+
+.popular-container__header-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.popular-select {
+  color: var(--text-color);
+  background-color: var(--primary-dar-5);
+  font-size: 1.5rem;
+}
+
+.popular-option {
+  color: var(--text-color);
+  background-color: var(--primary-dark-5);
+}
+
+.popular-select:focus {
+  outline: none;
+  border: none;
+}
+
+.popular-container__time-wrapper {
+  padding: 0 2rem;
+  display: flex;
+  gap: 3rem;
+}
+
+.popular-time {
+  color: var(--text-light-color);
+  padding-bottom: 0.5rem;
+  transition: box-shadow 0.3s;
+  margin-bottom: 2rem;
+}
+
+.popular-time.active {
+  color: var(--text-color);
+  box-shadow: 0 0.1rem 0 var(--text-light-color);
+}
+
+.popular-time:hover {
+  box-shadow: 0 0.1rem 0 var(--text-light-color);
+}
+
+.popular-container__card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  gap: 2rem;
+  justify-items: center;
+}
