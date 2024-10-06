@@ -1,5 +1,3 @@
-@import './../../../../css/app.css';
-
 .popular-container {
   margin: var(--margin-base);
   padding: 2rem var(--padding-base);

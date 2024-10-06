@@ -1,4 +1,4 @@
-import './buttons-container-style.css'
+import '~/pages/Home/components/ButtonsContainer/buttons-container-style.css'
 
 import ButtonIconText from '~/components/Buttons/ButtonIconText'
 

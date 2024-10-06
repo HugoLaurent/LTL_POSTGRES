@@ -1,4 +1,4 @@
-import './buttons-style.css'
+import '~/components/Buttons/buttons-style.css'
 
 export default function ButtonIconText({
   icon,

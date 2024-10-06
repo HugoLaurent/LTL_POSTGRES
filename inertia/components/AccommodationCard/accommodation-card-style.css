@@ -1,5 +1,3 @@
-@import './../../css/app.css';
-
 .accommodation-card__container {
   display: flex;
   flex-direction: column;

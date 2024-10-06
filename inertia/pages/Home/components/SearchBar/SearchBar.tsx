@@ -1,4 +1,4 @@
-import './search-bar-style.css'
+import '~/pages/Home/components/SearchBar/search-bar-style.css'
 import { useForm } from '@inertiajs/react'
 
 const SearchBar: React.FC = () => {

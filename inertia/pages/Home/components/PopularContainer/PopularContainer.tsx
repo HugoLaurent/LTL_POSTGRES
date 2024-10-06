@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './popular-container-style.css'
+import '~/pages/Home/components/PopularContainer/popular-container-style.css'
 import AccommodationCard from '~/components/AccommodationCard/AccommodationCard'
 import { usePage } from '@inertiajs/react'
 import {

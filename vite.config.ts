@@ -5,7 +5,6 @@ import react from '@vitejs/plugin-react'
 import adonisjs from '@adonisjs/vite/client'
 
 export default defineConfig({
-  base: '/inertia/',
   plugins: [
     inertia({ ssr: { enabled: false } }),
     react(),

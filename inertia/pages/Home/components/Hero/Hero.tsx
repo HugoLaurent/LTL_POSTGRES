@@ -1,4 +1,4 @@
-import './hero-style.css'
+import '~/pages/Home/components/Hero/hero-style.css'
 import video from '~/assets/video/hero_video.mp4'
 
 import SearchBar from '../SearchBar/SearchBar'

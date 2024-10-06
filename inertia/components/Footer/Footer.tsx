@@ -1,5 +1,5 @@
 import { fb, ins, lk } from '~/assets/icons'
-import './footer-style.css'
+import '~/components/Footer/footer-style.css'
 export default function Footer() {
   return (
     <section className="footer-container">

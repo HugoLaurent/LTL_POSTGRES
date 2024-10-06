@@ -1,4 +1,4 @@
-import './accommodation-card-style.css'
+import '~/components/AccommodationCard/accommodation-card-style.css'
 
 export default function AccommodationCard({ accommodation }: { accommodation: any }) {
   return (
